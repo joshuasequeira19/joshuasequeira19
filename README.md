@@ -1,14 +1,13 @@
 # Hi, I'm Joshua Sequeira
 
-Founding Engineer and Technical Lead at Symbl, working directly with the founders across cloud infrastructure, platform engineering and product engineering.
+Founding Engineer and Technical Lead at [Symbl](https://symbl.health), working directly with the founders across cloud infrastructure, platform engineering and product engineering.
 
 **Portfolio and case studies:** [joshseq.com](https://joshseq.com)
 
 ## What I work on
 
 - AWS platform operations: Terraform, GitHub Actions to ECS/ECR, observability, networking and cost
-- Developer environments and bare-metal Kubernetes (K3s)
-- Cloud migrations between Azure, AWS and Cloudflare
+- Developer environments and a cloud migration for [Prepare.sh](https://prepare.sh), from Azure to Cloudflare and bare-metal K3s
 - Internal products for operations teams, built end to end
 
 ## Teaching
