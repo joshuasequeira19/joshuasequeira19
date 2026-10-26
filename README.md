@@ -1,22 +1,56 @@
-# Hi, I'm Joshua Sequeira
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Joshua Sequeira, Founding Engineer and Technical Lead" src="assets/banner-light.svg" width="100%">
+</picture>
 
-Founding Engineer and Technical Lead at [Symbl](https://symbl.health), working directly with the founders across cloud infrastructure, platform engineering and product engineering.
+I'm a Founding Engineer and Technical Lead at [Symbl](https://symbl.health). I work directly with the founders, own the cloud platform underneath the product, and build internal products on top of it. Before that I was a Founding Engineer at [Prepare.sh](https://prepare.sh).
 
-**Portfolio and case studies:** [joshseq.com](https://joshseq.com)
+**[Portfolio and case studies: joshseq.com](https://joshseq.com)**
 
-## What I work on
+## How a change reaches production at Symbl
 
-- AWS platform operations: Terraform, GitHub Actions to ECS/ECR, observability, networking and cost
-- Developer environments and a cloud migration for [Prepare.sh](https://prepare.sh), from Azure to Cloudflare and bare-metal K3s
-- Internal products for operations teams, built end to end
+```mermaid
+flowchart LR
+  A[Pull request] --> B[GitHub Actions<br/>validate, build, version]
+  B --> C[(ECR)]
+  C --> D[ECS<br/>dev]
+  C --> E[ECS<br/>UAT]
+  C --> F[ECS<br/>production]
+  T[Terraform modules] -. build .-> D
+  T -. build .-> E
+  T -. build .-> F
+  F --> G[Prometheus, Grafana,<br/>CloudWatch]
+  G --> H[Slack alerts]
+```
 
-## Teaching
+One set of Terraform modules builds roughly 7 to 8 AWS environments. Releases ship in under six minutes. [Read the case study](https://joshseq.com/work/infrastructure-platform/).
 
-I designed a hands-on AWS course built around one evolving application.
+## Selected work
 
-- [taskflow-aws-cohort](https://github.com/joshuasequeira19/taskflow-aws-cohort): 28 sessions, Console-first, from account safety to scaling and cost review
-- [taskflow-aws-capstones](https://github.com/joshuasequeira19/taskflow-aws-capstones): four capstones that follow the course
+| Project | What it is |
+| --- | --- |
+| [Operating the platform behind Symbl](https://joshseq.com/work/infrastructure-platform/) | AWS across 7 to 8 environments: Terraform, GitHub Actions to ECS/ECR, observability, networking, cost |
+| [Rebuilding the developer environment stack](https://joshseq.com/work/developer-environments/) | Isolated learner environments moved from Azure AKS to bare-metal K3s |
+| [Moving core infrastructure across cloud boundaries](https://joshseq.com/work/infrastructure-migration/) | CDN, object storage and databases moved from Azure to Cloudflare R2 and D1 |
+| [Interactive AWS training platform](https://joshseq.com/work/aws-training-platform/) | LocalStack extended and wired into a custom frontend and backend |
+| [Comparison tool](https://joshseq.com/work/comparison-tool/) | Internal tool that turns clinical recommendations into a customer-ready comparison |
+| [WhatsApp operations dashboard](https://joshseq.com/work/whatsapp-dashboard/) | Open-source tool adapted into an internal WhatsApp operations dashboard |
 
-## Contact
+## Stack I work in
 
-[joshseq.com](https://joshseq.com) · [LinkedIn](https://www.linkedin.com/in/joshua-sequeira-2b205965/)
+**Cloud:** AWS (ECS, ECR, EC2, RDS, IAM, Route 53, CloudWatch) · Azure · Cloudflare (Workers, R2, D1)
+**Infrastructure:** Terraform · Kubernetes and K3s · Helm · Docker
+**Delivery:** GitHub Actions · Jenkins · Azure DevOps
+**Observability:** Prometheus · Grafana · CloudWatch · Slack alerting
+**Web:** Astro · Tailwind · TypeScript · Go
+
+## I also teach
+
+I designed a hands-on AWS course around one evolving application, so learners re-architect the same app from a laptop process to a load-balanced, auto-scaled deployment instead of building 28 toy demos.
+
+- [**taskflow-aws-cohort**](https://github.com/joshuasequeira19/taskflow-aws-cohort): 28 sessions, Console-first, from account safety to scaling and cost review
+- [**taskflow-aws-capstones**](https://github.com/joshuasequeira19/taskflow-aws-capstones): four capstones that follow the course
+
+## Get in touch
+
+[joshseq.com](https://joshseq.com) · [LinkedIn](https://www.linkedin.com/in/joshua-sequeira-2b205965/) · joshua.sequeira2000@gmail.com
