@@ -38,11 +38,11 @@ One set of Terraform modules builds roughly 7 to 8 AWS environments. Releases sh
 
 ## Stack I work in
 
-**Cloud:** AWS (ECS, ECR, EC2, RDS, IAM, Route 53, CloudWatch) · Azure · Cloudflare (Workers, R2, D1)
-**Infrastructure:** Terraform · Kubernetes and K3s · Helm · Docker
-**Delivery:** GitHub Actions · Jenkins · Azure DevOps
-**Observability:** Prometheus · Grafana · CloudWatch · Slack alerting
-**Web:** Astro · Tailwind · TypeScript · Go
+- **Cloud:** AWS (ECS, ECR, EC2, RDS, IAM, Route 53, CloudWatch) · Azure · Cloudflare (Workers, R2, D1)
+- **Infrastructure:** Terraform · Kubernetes and K3s · Helm · Docker
+- **Delivery:** GitHub Actions · Jenkins · Azure DevOps
+- **Observability:** Prometheus · Grafana · CloudWatch · Slack alerting
+- **Web:** Astro · Tailwind · TypeScript · Go
 
 ## I also teach
 
