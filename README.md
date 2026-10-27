@@ -49,7 +49,7 @@ One set of Terraform modules builds roughly 7 to 8 AWS environments at Symbl, an
 
 I designed a hands-on Cloud and DevOps cohort for absolute beginners: 66 live sessions from the Linux terminal up to Terraform. The AWS core is built around one evolving app, so learners re-architect the same app from a laptop process to a load-balanced, auto-scaled deployment instead of building toy demos.
 
-<p align="center"><img src="assets/sec/course-r4.svg" width="880" alt="Cloud and DevOps Fundamentals Cohort: 66 sessions across seven phases, from Tech and CLI literacy to three capstones"></p>
+<p align="center"><img src="assets/sec/course-r5.svg" width="880" alt="Cloud and DevOps Fundamentals Cohort: 66 sessions across seven phases, from Tech and CLI literacy to three capstones"></p>
 
 - [**taskflow-aws-cohort**](https://github.com/joshuasequeira19/taskflow-aws-cohort): the AWS core, Console-first, from account safety to scaling and cost review
 - [**taskflow-aws-capstones**](https://github.com/joshuasequeira19/taskflow-aws-capstones): the capstones that follow the course
