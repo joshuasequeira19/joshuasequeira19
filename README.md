@@ -3,10 +3,6 @@
   <img alt="Joshua Sequeira, Founding Engineer and Technical Lead" src="assets/banner-light.svg" width="100%">
 </picture>
 
-<p>
-  <a href="https://buymeacoffee.com/joshseq"><img src="assets/bmc.svg" width="232" alt="Buy me a coffee"></a>
-</p>
-
 <p align="center">
   <a href="https://joshseq.com"><img alt="Animated terminal showing Terraform modules building every environment, a GitHub Actions release to ECS, and a migration from Azure to Cloudflare" src="assets/terminal.svg" width="880"></a>
 </p>
@@ -50,3 +46,7 @@ I designed a hands-on AWS course around one evolving application, so learners re
 ## Get in touch
 
 [joshseq.com](https://joshseq.com) · [LinkedIn](https://www.linkedin.com/in/joshua-sequeira-2b205965/) · joshua.sequeira2000@gmail.com
+
+<p>
+  <a href="https://buymeacoffee.com/joshseq"><img src="assets/bmc.svg" width="232" alt="Buy me a coffee"></a>
+</p>
