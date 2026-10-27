@@ -7,7 +7,7 @@
   <a href="https://joshseq.com"><img alt="Animated terminal showing Terraform modules building every environment, a GitHub Actions release to ECS, and a migration from Azure to Cloudflare" src="assets/terminal.svg" width="880"></a>
 </p>
 
-<img align="left" src="assets/dev.svg" width="380" alt="Pixel-art developer typing at a monitor">
+<img align="left" src="assets/dev.svg?v=night1" width="440" alt="Pixel-art developer typing at a monitor">
 
 I'm a Founding Engineer and Technical Lead at [Symbl](https://symbl.health). I work directly with the founders, own the cloud platform underneath the product, and build internal products on top of it. Before that I was a Founding Engineer at [Prepare.sh](https://prepare.sh).
 
