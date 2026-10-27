@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=desk5">
-  <img alt="Joshua Sequeira, Founding Engineer and Technical Lead" src="assets/banner-light.svg?v=desk5" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=desk6">
+  <img alt="Joshua Sequeira, Founding Engineer and Technical Lead" src="assets/banner-light.svg?v=desk6" width="100%">
 </picture>
 
 <p align="center">
