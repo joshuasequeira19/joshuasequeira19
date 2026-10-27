@@ -13,6 +13,8 @@ I'm a Founding Engineer and Technical Lead at [Symbl](https://symbl.health). I w
 
 **[Portfolio and case studies: joshseq.com](https://joshseq.com)**
 
+<br clear="right">
+
 ## Selected work
 
 One set of Terraform modules builds roughly 7 to 8 AWS environments at Symbl, and releases ship through GitHub Actions to ECS in under six minutes.
