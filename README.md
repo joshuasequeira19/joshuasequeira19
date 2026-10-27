@@ -7,31 +7,15 @@
   <a href="https://joshseq.com"><img alt="Animated terminal showing Terraform modules building every environment, a GitHub Actions release to ECS, and a migration from Azure to Cloudflare" src="assets/terminal.svg" width="880"></a>
 </p>
 
-<img align="right" src="assets/dev.svg" width="300" alt="Pixel-art developer typing at a monitor">
+<img align="right" src="assets/dev.svg" width="330" alt="Pixel-art developer typing at a monitor">
 
 I'm a Founding Engineer and Technical Lead at [Symbl](https://symbl.health). I work directly with the founders, own the cloud platform underneath the product, and build internal products on top of it. Before that I was a Founding Engineer at [Prepare.sh](https://prepare.sh).
 
 **[Portfolio and case studies: joshseq.com](https://joshseq.com)**
 
-## How a change reaches production at Symbl
-
-```mermaid
-flowchart LR
-  A[Pull request] --> B[GitHub Actions<br/>validate, build, version]
-  B --> C[(ECR)]
-  C --> D[ECS<br/>dev]
-  C --> E[ECS<br/>UAT]
-  C --> F[ECS<br/>production]
-  T[Terraform modules] -. build .-> D
-  T -. build .-> E
-  T -. build .-> F
-  F --> G[Prometheus, Grafana,<br/>CloudWatch]
-  G --> H[Slack alerts]
-```
-
-One set of Terraform modules builds roughly 7 to 8 AWS environments. Releases ship in under six minutes. [Read the case study](https://joshseq.com/work/infrastructure-platform/).
-
 ## Selected work
+
+One set of Terraform modules builds roughly 7 to 8 AWS environments at Symbl, and releases ship through GitHub Actions to ECS in under six minutes.
 
 | Project | What it is |
 | --- | --- |
