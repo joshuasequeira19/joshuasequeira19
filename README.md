@@ -3,6 +3,12 @@
   <img alt="Joshua Sequeira, Founding Engineer and Technical Lead" src="assets/banner-light.svg" width="100%">
 </picture>
 
+<p align="center">
+  <a href="https://joshseq.com"><img alt="Animated terminal showing Terraform modules building every environment, a GitHub Actions release to ECS, and a migration from Azure to Cloudflare" src="assets/terminal.svg" width="880"></a>
+</p>
+
+<img align="right" src="assets/dev.svg" width="300" alt="Pixel-art developer typing at a monitor">
+
 I'm a Founding Engineer and Technical Lead at [Symbl](https://symbl.health). I work directly with the founders, own the cloud platform underneath the product, and build internal products on top of it. Before that I was a Founding Engineer at [Prepare.sh](https://prepare.sh).
 
 **[Portfolio and case studies: joshseq.com](https://joshseq.com)**
