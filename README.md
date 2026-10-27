@@ -32,16 +32,16 @@ One set of Terraform modules builds roughly 7 to 8 AWS environments at Symbl, an
 ## Stack I work in
 
 <img src="assets/sec/stack-cloud-r4.svg" width="100%" alt="Cloud"><br>
-<picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws,azure,cloudflare&perline=15&theme=light"><img src="https://skillicons.dev/icons?i=aws,azure,cloudflare&perline=15&theme=dark" alt="aws, azure, cloudflare" height="56"></picture><br>
+<picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws,azure,cloudflare&perline=15&theme=light"><img src="https://skillicons.dev/icons?i=aws,azure,cloudflare&perline=15&theme=dark" alt="aws, azure, cloudflare" height="40"></picture><br>
 
 <img src="assets/sec/stack-infra-r4.svg" width="100%" alt="Infrastructure and delivery"><br>
-<picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=terraform,kubernetes,docker,githubactions,jenkins,linux&perline=15&theme=light"><img src="https://skillicons.dev/icons?i=terraform,kubernetes,docker,githubactions,jenkins,linux&perline=15&theme=dark" alt="terraform, kubernetes, docker, githubactions, jenkins, linux" height="56"></picture><br>
+<picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=terraform,kubernetes,docker,githubactions,jenkins,linux&perline=15&theme=light"><img src="https://skillicons.dev/icons?i=terraform,kubernetes,docker,githubactions,jenkins,linux&perline=15&theme=dark" alt="terraform, kubernetes, docker, githubactions, jenkins, linux" height="40"></picture><br>
 
 <img src="assets/sec/stack-obs-r4.svg" width="100%" alt="Observability"><br>
-<picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=prometheus,grafana&perline=15&theme=light"><img src="https://skillicons.dev/icons?i=prometheus,grafana&perline=15&theme=dark" alt="prometheus, grafana" height="56"></picture><br>
+<picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=prometheus,grafana&perline=15&theme=light"><img src="https://skillicons.dev/icons?i=prometheus,grafana&perline=15&theme=dark" alt="prometheus, grafana" height="40"></picture><br>
 
 <img src="assets/sec/stack-web-r4.svg" width="100%" alt="Web"><br>
-<picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=astro,tailwind,ts,go&perline=15&theme=light"><img src="https://skillicons.dev/icons?i=astro,tailwind,ts,go&perline=15&theme=dark" alt="astro, tailwind, ts, go" height="56"></picture><br>
+<picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=astro,tailwind,ts,go&perline=15&theme=light"><img src="https://skillicons.dev/icons?i=astro,tailwind,ts,go&perline=15&theme=dark" alt="astro, tailwind, ts, go" height="40"></picture><br>
 
 <p align="center"><img src="assets/sec/divider-r4.svg" width="880" alt=""></p>
 
